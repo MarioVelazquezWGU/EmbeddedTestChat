@@ -1,16 +1,11 @@
 <html>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #015FCA;
-		font-family: "Salesforce Sans", sans-serif;
+		background-color: #005290;
+		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #015FCA;
-	}
-	@font-face {
-		font-family: 'Salesforce Sans';
-		src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
-		url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+		outline: 1px solid #005290;
 	}
 </style>
 
@@ -40,16 +35,16 @@
 
 		embedded_svc.init(
 			'https://srm--devfull.sandbox.my.salesforce.com',
-			'https://srm--devfull.sandbox.my.salesforce-sites.com/',
+			'https://srm--devfull.sandbox.my.salesforce-sites.com/testChat',
 			gslbBaseURL,
 			'00DWL0000004wDV',
-			'Marketing_Chat_Deployment',
+			'TestEmbeddedChat',
 			{
 				baseLiveAgentContentURL: 'https://c.la2s-core1.sfdc-8tgtt5.salesforceliveagent.com/content',
-				deploymentId: '5720c000000fxSQ',
-				buttonId: '5730c000000k9qr',
+				deploymentId: '572WL00000039bR',
+				buttonId: '573WL0000000vKr',
 				baseLiveAgentURL: 'https://d.la2s-core1.sfdc-8tgtt5.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I0c000000blJJEAY_167d1c96afd',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IWL0000000JsH2AU_18f1c02360d',
 				isOfflineSupportEnabled: false
 			}
 		);
